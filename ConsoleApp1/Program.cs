@@ -53,6 +53,7 @@ namespace MyApp
                             break;
                         case 'D'://select item and deleting item from the list
                         case 'd':
+                            Console.WriteLine("Which product would you like to delete?");
                              selection = int.Parse(Console.ReadLine()?? "-1");
                              selectedProd = list.FirstOrDefault(p => p.Id == selection);
                              ProductServiceProxy.Current.Delete(selection);
