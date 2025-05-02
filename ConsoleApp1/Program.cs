@@ -28,11 +28,19 @@ namespace MyApp
                     {
                         case 'C'://adding to a list
                         case 'c':
+<<<<<<< Updated upstream
                             list.Add(new Product
                             {
                                 Id = lastKey++,
                                 Name = Console.ReadLine()
                             });
+=======
+                        ProductServiceProxy.Current.AddorUpdate(new Product
+                        {
+                            Name = Console.ReadLine()
+                        });
+                            
+>>>>>>> Stashed changes
                             break;
                         case 'R':
                         case 'r'://print out all items on the list
@@ -53,8 +61,12 @@ namespace MyApp
                         case 'D'://select item and deleting item from the list
                         case 'd':
                              selection = int.Parse(Console.ReadLine()?? "-1");
+<<<<<<< Updated upstream
                              selectedProd = list.FirstOrDefault(p => p.Id == selection);
                              list.Remove(selectedProd);
+=======
+                             ProductServiceProxy.Current.Delete(selection);
+>>>>>>> Stashed changes
                             break;
                         case 'Q':
                         case 'q':

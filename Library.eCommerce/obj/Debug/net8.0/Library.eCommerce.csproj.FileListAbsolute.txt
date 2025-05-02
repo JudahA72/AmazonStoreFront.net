@@ -1,0 +1,12 @@
+/Users/judahalter/Desktop/GitHub/ConsoleApp1/Library.eCommerce/bin/Debug/net8.0/Library.eCommerce.deps.json
+/Users/judahalter/Desktop/GitHub/ConsoleApp1/Library.eCommerce/bin/Debug/net8.0/Library.eCommerce.dll
+/Users/judahalter/Desktop/GitHub/ConsoleApp1/Library.eCommerce/bin/Debug/net8.0/Library.eCommerce.pdb
+/Users/judahalter/Desktop/GitHub/ConsoleApp1/Library.eCommerce/obj/Debug/net8.0/Library.eCommerce.GeneratedMSBuildEditorConfig.editorconfig
+/Users/judahalter/Desktop/GitHub/ConsoleApp1/Library.eCommerce/obj/Debug/net8.0/Library.eCommerce.AssemblyInfoInputs.cache
+/Users/judahalter/Desktop/GitHub/ConsoleApp1/Library.eCommerce/obj/Debug/net8.0/Library.eCommerce.AssemblyInfo.cs
+/Users/judahalter/Desktop/GitHub/ConsoleApp1/Library.eCommerce/obj/Debug/net8.0/Library.eCommerce.csproj.CoreCompileInputs.cache
+/Users/judahalter/Desktop/GitHub/ConsoleApp1/Library.eCommerce/obj/Debug/net8.0/Library.eCommerce.sourcelink.json
+/Users/judahalter/Desktop/GitHub/ConsoleApp1/Library.eCommerce/obj/Debug/net8.0/Library.eCommerce.dll
+/Users/judahalter/Desktop/GitHub/ConsoleApp1/Library.eCommerce/obj/Debug/net8.0/refint/Library.eCommerce.dll
+/Users/judahalter/Desktop/GitHub/ConsoleApp1/Library.eCommerce/obj/Debug/net8.0/Library.eCommerce.pdb
+/Users/judahalter/Desktop/GitHub/ConsoleApp1/Library.eCommerce/obj/Debug/net8.0/ref/Library.eCommerce.dll

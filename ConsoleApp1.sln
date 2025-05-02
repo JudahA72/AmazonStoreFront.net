@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.eCommerce", "Library.eCommerce\Library.eCommerce.csproj", "{F9A2CCE0-1EE3-4929-8858-8F7E84B840D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maui.eCommerce", "Maui.eCommerce\Maui.eCommerce.csproj", "{0A00DE94-4237-4E0C-9349-E64E6BB6EFDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F9A2CCE0-1EE3-4929-8858-8F7E84B840D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9A2CCE0-1EE3-4929-8858-8F7E84B840D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9A2CCE0-1EE3-4929-8858-8F7E84B840D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A00DE94-4237-4E0C-9349-E64E6BB6EFDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A00DE94-4237-4E0C-9349-E64E6BB6EFDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A00DE94-4237-4E0C-9349-E64E6BB6EFDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A00DE94-4237-4E0C-9349-E64E6BB6EFDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
