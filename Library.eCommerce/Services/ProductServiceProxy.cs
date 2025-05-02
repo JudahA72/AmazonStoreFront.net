@@ -14,9 +14,20 @@ namespace Library.eCommerce.Services;
     {
         private ProductServiceProxy()
         {
-
+            Products = new List<Product?>();
         }
-        private static ProductServiceProxy? instance = null;
+        private int lastKey
+        {
+            get
+            {
+                if(!Products.Any())
+                {
+                    return 0;
+                }
+                return Products.Select(p => p?.Id ?? -1 ).Max();
+            }
+        }
+        private static ProductServiceProxy? instance;
         private static object instanceLock = new object();
         public static ProductServiceProxy Current
         {
@@ -33,11 +44,34 @@ namespace Library.eCommerce.Services;
                 return instance;
             }
         }
-        private List<Product?> list = new List<Product?>();
+        public List<Product?> list { get;  private set; }
         
         public List<Product?> Products => list;
-      
-    } 
+
+        public Product AddorUpdate(Product product)
+        {
+            if(product.Id==0)
+            {
+                product.Id = lastKey +1;
+                Products.Add(product);
+            }
+            
+            return product;
+        } 
+
+        public Product Delete(int id)
+        {
+            if(id == 0)
+            {
+                return null;
+            }
+            Product? product= Products.FirstOrDefault(p => p?.Id == id);
+            Products.Remove(product);
+
+            return product;
+        }
+        
+    }
 
     
 
