@@ -9,7 +9,7 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            var lastKey = 1;
+            
             Console.WriteLine("Welcome To Amazon Simulator!");
 
             Console.WriteLine("C. Create a new inventory item");
@@ -28,19 +28,11 @@ namespace MyApp
                     {
                         case 'C'://adding to a list
                         case 'c':
-<<<<<<< Updated upstream
                             list.Add(new Product
                             {
-                                Id = lastKey++,
+                             
                                 Name = Console.ReadLine()
                             });
-=======
-                        ProductServiceProxy.Current.AddorUpdate(new Product
-                        {
-                            Name = Console.ReadLine()
-                        });
-                            
->>>>>>> Stashed changes
                             break;
                         case 'R':
                         case 'r'://print out all items on the list
@@ -55,18 +47,15 @@ namespace MyApp
                                 if(selectedProd != null)
                                 {
                                     selectedProd.Name = Console.ReadLine()?? "ERROR";
+                                    ProductServiceProxy.Current.AddorUpdate(selectedProd);
                                 }
                                 
                             break;
                         case 'D'://select item and deleting item from the list
                         case 'd':
+                            Console.WriteLine("Which product would you like to delete?");
                              selection = int.Parse(Console.ReadLine()?? "-1");
-<<<<<<< Updated upstream
-                             selectedProd = list.FirstOrDefault(p => p.Id == selection);
-                             list.Remove(selectedProd);
-=======
                              ProductServiceProxy.Current.Delete(selection);
->>>>>>> Stashed changes
                             break;
                         case 'Q':
                         case 'q':

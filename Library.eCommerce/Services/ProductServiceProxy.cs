@@ -14,11 +14,6 @@ namespace Library.eCommerce.Services;
     {
         private ProductServiceProxy()
         {
-<<<<<<< Updated upstream
-
-        }
-        private static ProductServiceProxy? instance = null;
-=======
             Products = new List<Product?>
             {
                 new Product { Id = 1, Name = "Product 1" },
@@ -38,7 +33,6 @@ namespace Library.eCommerce.Services;
             }
         }
         private static ProductServiceProxy? instance;
->>>>>>> Stashed changes
         private static object instanceLock = new object();
         public static ProductServiceProxy Current
         {
@@ -55,13 +49,6 @@ namespace Library.eCommerce.Services;
                 return instance;
             }
         }
-<<<<<<< Updated upstream
-        private List<Product?> list = new List<Product?>();
-        
-        public List<Product?> Products => list;
-      
-    } 
-=======
         public List<Product?> Products { get;  private set; }
         
   
@@ -90,7 +77,6 @@ namespace Library.eCommerce.Services;
         }
         
     }
->>>>>>> Stashed changes
 
     
 
