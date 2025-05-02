@@ -1,0 +1,8 @@
+/Users/judahalter/Desktop/GitHub/ConsoleApp1/Library.eCommerce/obj/Debug/net8.0-ios/actool/_PartialAppManifest.items
+/Users/judahalter/Desktop/GitHub/ConsoleApp1/Library.eCommerce/obj/Debug/net8.0-ios/actool/_BundleResourceWithLogicalName.items
+/Users/judahalter/Desktop/GitHub/ConsoleApp1/Library.eCommerce/obj/Debug/net8.0-ios/actool/_ProcessedImageAssetsPath.items
+/Users/judahalter/Desktop/GitHub/ConsoleApp1/Library.eCommerce/obj/Debug/net8.0-ios/coremlc/_PartialAppManifest.items
+/Users/judahalter/Desktop/GitHub/ConsoleApp1/Library.eCommerce/obj/Debug/net8.0-ios/coremlc/_BundleResourceWithLogicalName.items
+/Users/judahalter/Desktop/GitHub/ConsoleApp1/Library.eCommerce/obj/Debug/net8.0-ios/coremlc/_ProcessedCoreMLModelsPath.items
+/Users/judahalter/Desktop/GitHub/ConsoleApp1/Library.eCommerce/obj/Debug/net8.0-ios/_ProcessedBundleResourcesPath.items
+/Users/judahalter/Desktop/GitHub/ConsoleApp1/Library.eCommerce/obj/Debug/net8.0-ios/_ProcessedContentPath.items
