@@ -78,4 +78,5 @@ If you prefer SSH and have keys configured, use the SSH remote instead.
 - If `dotnet build` fails, check that the .NET SDK version is compatible (8.0+).
 - If MAUI targets are missing in Visual Studio, install the .NET MAUI workload via the Visual Studio Installer.
 - If `git push` fails due to authentication, create and use a Personal Access Token (PAT) or configure SSH keys.
+- Done by Judah Alter
 
