@@ -79,19 +79,3 @@ If you prefer SSH and have keys configured, use the SSH remote instead.
 - If MAUI targets are missing in Visual Studio, install the .NET MAUI workload via the Visual Studio Installer.
 - If `git push` fails due to authentication, create and use a Personal Access Token (PAT) or configure SSH keys.
 
-## License
-
-Add a license file (`LICENSE` or `LICENSE.md`) describing how this project may be used. If you're not sure, MIT is a simple permissive option.
-
-## Contact / Next steps
-
-- If you want I can:
-	- Add a GitHub Actions CI that builds the solution on push and PRs.
-	- Add unit test scaffolding and a basic test project.
-	- Create issue templates and a contributing guide.
-
-Tell me which next step you'd like and I will implement it.
-
----
-
-README added by an assistant. If you'd like wording changes or extra sections (API reference, architecture diagrams, screenshots), say which and I'll update the file.
